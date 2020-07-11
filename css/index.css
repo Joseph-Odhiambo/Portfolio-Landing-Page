@@ -23,17 +23,16 @@ body {
 .links {
     margin-top: 50px;
     flex-wrap: wrap;
-
 } 
 
 ul {
     display: flex;
     position: relative;
 }
-
 ul > li {
     list-style-type: none;
 }
+
 ul > li > a {
     padding: 15px;
     margin: 15px;
