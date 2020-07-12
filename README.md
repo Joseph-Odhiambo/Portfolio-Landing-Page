@@ -8,3 +8,5 @@ Joseph Odhiambo
 # Features
 * Easy to integrate
 * Fully responsive
+# LINCENSE
+Completely free (MIT)! See [LICENSE](LICENSE) for more.
