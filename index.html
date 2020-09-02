@@ -1,162 +1,363 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joe-Kicker</title>
-    <link rel="stylesheet" href="./css/animate.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/styles.css">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>hemant.codes</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+   <script src="js/modernizr.js"></script>
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="./images/icon/logopng" >
+
 </head>
+
 <body>
-    <div style="text-align:center;">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-info"  style="text-align:center;">
-            <h2 style="margin-right: 30px; padding: 5px;">Joseph-Odhiambo</h2>
-            <ul class="navbar-nav">
-                    <a href=""><li class="nav-link Active">Home</li></a>
-                    <a href="#about"><li class="nav-link">About</li></a>
-                    <a href="#skills"><li class="nav-link">Skills</li></a>
-                    <a href="#projects"><li class="nav-link">Projects</li></a>
-                    <a href="#contacts"><li class="nav-link">Contact</li></a>
-            </div>
-        </nav>
-    </div>
 
-    <div >
-        <!-- div section about me -->
-        <div class="about" id="about">
-            <div class="hello">
-                <h1>Hello to all, <br>Im Joe</h1>
-            </div>
-            <div>
-                <p>SEE MORE ABOUT ME</p>
-            </div>
-            <div id="arrow" class="bounce">
-                <a href="#about-me"><img class="bounce"  src="./images/arrow.png" alt="" width="30px"></a>
-            </div>
-        </div>
-        <div class="container">
-           <div class="about-me row"  id="about-me">
-                <div style="margin-top: 70px; margin-right: 30px;" class="col-md-5">
-                    <h2 style="padding-top: 30px;padding-bottom: 20px;">About Me</h2>
-                    <p style="padding-bottom: 50px;">A passionate Software Developer <br>🚀 having a little experience of building a web page with Html, CSS and <br>a little on JavaScrips and passionate on other cool libraries and frameworks.</p>
-                    <button  class="btn btn-info"><a href="#contacts" >Contact Me</a></button>
-                </div>
-                <div style="margin-right: 50px;" class="col-md-5">
-                    <img src="./images/manOnTable.52be3144.svg" height="380px" width="280px">
-                </div>
-            </div> 
-        </div>
-        
-        <!-- a section div skills -->
-        <div class="skill " id="skills" style="background-color: rgb(63, 63, 187);" style="display: inline-flex;">
-            <div style="margin-right: 30px;">
-                <img src="./images/developerActivity.59389695.svg" height="380px" width="280px">
-            </div>
-            <div class="good">
-                <h2>What i do</h2>
-                <p>I am Web Developer, residing in Nairobi, Kenya. I enjoy learning new things and implementing them on the exciting projects I'm working on. When not immersed in code and some chillhop music, you'll find me reading ebooks, gaming or bike riding. Want to work together? I'd love to hear from you.</p> 
-                <p><b>Languages : </b></p>
-                <ol>
-                    <li><img src="./images/1200px-HTML5_logo_and_wordmark.svg.png" alt="" width="30px" style="margin-right: 10px;">Html-(Hyppertext makeup language) </li>
-                    <li><img src="./images/css-c9b214f0d7.png" alt="" width="40px">CSS-(Casscading stylesheet) </li>
-                    <li><img src="./images/javascript-logo-html-comment-python-15-thumb.jpg" alt="" width="27px"style="margin-right: 10px;">JavaScript </li>
-                    <li><img src="" alt=""> Angular Framework <img src="" alt=""></li>
-                </ol>
-            </div>
-        </div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+           <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+           <li><a class="smoothscroll" href="#about">About</a></li>
+	        <li><a class="smoothscroll" href="#">Resume</a></li> 
+           <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+           <li><a class="smoothscroll" href="#testimonials">contact</a></li> 
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+  <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Joseph Odhiambo.</h1>
+             
+            <ul class="social">
+               <li><a href="https://github.com/Joseph-Odhiambo" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://twitter.com/JosephKdon" target=" _blank"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/joe-kicker-058a3a172/" target=" _blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCEdUqMi06-V58HrCwCkbEIA?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+               <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://web.facebook.com/joseph.kdon.1/" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
 
 
-        <div class="container" id="projects">
-            <h3 style="padding-top: 50px;padding-bottom: 30px;">Projects</h3>
-            <div class="row ">
-               <div class="card-body" style="background-color: rgba(130, 192, 156, 0.685);width: 30%;margin-right: 10px;">
-                    <img src="./images/quote.png" width="100%"  alt="">
-                    <a href="https://github.com/Joseph-Odhiambo/Quote-App/"><h4>Quote-App</h4></a>
-                    <p>This is a Quote app that allows users to add and delete Quotes.</p>
-                    <a href="https://github.com/Joseph-Odhiambo/Quote-App"><button class="btn btn-success">See More</button></a>
-                </div>
-                <div class="card-body" style="background-color: rgba(130, 192, 156, 0.685); width: 30%;margin-right: 10px;">
-                    <img src="./images/trace.png" width="100%"  alt="">
-                    <a href="https://joseph-odhiambo.github.io/Trace/"><h4>Trace-Music</h4></a>
-                    <p>This is an app music that allows the lovers of music to search their favourite songs and stream online.</p>
-                    <a href="https://github.com/Joseph-Odhiambo/Trace"><button class="btn btn-success">See More</button></a>
-                </div>
-                <div class="card-body" style="background-color: rgba(130, 192, 156, 0.685);width: 30%;">
-                    <img src="./images/github.png" width="100%"  alt="">
-                    <a href="https://github.com/Joseph-Odhiambo/Github-Search/"><h4>Github-Search</h4></a>
-                    <p>This is an application that allows user to search for a github account and their respective repositories. And it allows you to go into the repositories.</p>
-                    
-                    <a href="https://github.com/Joseph-Odhiambo/Github-Search"><button class="btn btn-success">See More</button></a>
-                </div> 
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+            Hii,
+             I design and develop experiences that make peoples lives <span>Simple.</span>
+
+
+            I am currently a under graduate, who loves to develop and try new technologies,i also love to code. I am currently learning skills amd mastering the techologies, i love to read about space and fast growing "Quantom Physics".My aim is to work with NASA and develop new technology which can scan proper details about black holes and cosmic unknown fields.
+
+</p>
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Joseph Odhiambo</span><br>
+						   <span> Nairobi(263139)<br>
+						         Nairobi | Kenya.
+                     </span><br>
+						   <span>(+254) 710421000</span><br>
+                     <span>mailhemantjoshi@gmail.com</span>
+					   </p>
+
+               </div>
+
+                <div class="columns download">
+                  <p>
+                     <a href="" target="_blank" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div> 
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <p>Learning and working on new projects is what makes me fell "ALIVE". I am passionate to learn new stuff and impliment then in my daily life, currently i am working on Rest Api Project which i find interesting and scoping i also love to use Linux OS which is daily a new discovery for me.(+254) 710421000</p>
+				<div class="bars">
+				   <ul class="skills progress">
+				   	<li><span class="bar-expand linux"></span><em>Linux</em></li>
+                  <li><span class="bar-expand nodejs"></span><em>Nodejs</em></li>
+						<li><span class="bar-expand Cpp"></span><em>JavaScript</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand Gaming"></span><em>Python</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+    <!--Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+             Projects.
+             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="./images/github.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>User Github Credntials</h5>
+                              <p>Angular-CLI</p>
+          					   </div>
+                        </div>
+                        <a href="https://joseph-odhiambo.github.io/Github-Search/" target="blank"><div class="link-icon"><i class="icon-plus"></i></div></a>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/trace.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Trace Music</h5>
+                              <p> JavaScript and CSS</p>
+          					   </div>
+                        </div>
+                        <a href="https://joseph-odhiambo.github.io/Giphy-App/" target="blank"><div class="link-icon"><i class="icon-plus"></i></div></a>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+              <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="./images/giphy.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Giphy App</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <a href="https://joseph-odhiambo.github.io/Giphy-App/" target="blank"><div class="link-icon"><i class="icon-plus"></i></div></a>
+                     </a>
+
+                  </div>
+          		</div>  <!--item end -->
+
+
+        <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/trace.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Trace Music</h4>
+			      <p>This is a special Music App and it is designed by Javascript, css and plugins for streaming mp3 music online and that makes it cool.</p>
+               <span class="categories"><i class="fa fa-tag"></i>4-MAY-2020</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://joseph-odhiambo.github.io/Giphy-App/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
+
+	      </div> <!--modal-01 End --> 
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/giphy.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Giphy App</h4>
+			      <p> This is an Angular-CLI based web-development with a rest-API credencial for a GIPHY app for the Giffs lovers. </p>
+               <span class="categories"><i class="fa fa-tag"></i>28-APRIL-2020</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://joseph-odhiambo.github.io/Giphy-App/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div> <!-- modal-02 End --> 
+         
+        <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/github.png" alt=""/>
             
-        </div>
-
-
-
-
-
-
-
-
-        <!-- social hundle you can reach out to me -->
-        <div class="get" id="contacts">
-            <div class="front">
-                <h2>Reach Out to me!</h2>
-                <p>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
-                <div class="social">
-                    <a href="https://web.facebook.com/?_rdc=1&"><span class="fab fa-facebook-f"></span></a>
-                    <a href="https://twitter.com/JosephKdon"><span class="fab fa-twitter"></span></a>
-                    <a href="https://www.instagram.com/josephtext/"><span class="fab fa-instagram"></span></a>
-                    <a href="https://github.com/Joseph-Odhiambo"><span class="fab fa-github"></span></a>
-                </div>
-            </div>
-            <div class="me">
-                <img src="./images/IMG_20200710_114408.jpg" height="380px" width="280px">
-            </div>
-        </div>
-
-        <!-- office location or leave a message -->
-        <div class="center box">
-            <div class="box">
-                <h2>Address</h2>
-                <div class="content">
-                    <div class="place">
-                        <span class="fas fa-phone-alt"></span>
-                        <span>+254-71042100</span>
-                    </div>
-                    <div class="home">
-                        <span class="fas fa-map-marker-alt"></span>
-                        <span>Nirobi, Ngara</span>
-                    </div>
-                    <div class="email">
-                        <span class="fas fa-envelope"></span>
-                        <span>josephkdo@gmail.com</span>
-                    </div>
-                </div>  
-            </div>
+            <div class="description-box">
+			      <h4>User Github Credntials</h4>
+			      <p>User Github Credntials service is a example of rest api which is scripted in NodeJs(express()) and database used is Angular-CLI and to provide a high level security bcrypt is used and salting is done to avoid any kind of leak in the user password, also it support multiple user search which makes it important. <br> For more Details or to contribute to the model please click on the githublink below.</p>
+               <span class="categories"><i class="fa fa-tag"></i>14-MAY-2020</span>
+		      </div>
             
-            <div class="right box">
-                <h2>Leave a message</h2>
-                <div class="content">
-                    <form action="#">
-                        <div class="email">
-                            <div>Email *</div>
-                            <input placeholder="write your email..." type="email" required>
-                        </div>
-                        <div class="msg">
-                            <div>Message *</div>
-                            <textarea cols="25" placeholder="write your message..." rows="2" required></textarea>
-                        </div>
-                        <div class="btn">
-                            <button type="submit" class="btn btn-info">Send</button>
-                        </div>
-                    </form>
-                </div>
+            <div class="link-box">
+               <a href="https://joseph-odhiambo.github.io/Github-Search/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-        </div>
-    </div>
-    </div>
+
+	      </div> 
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->  
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get Hosting.</span></h1>
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2><a href="">Contact Me To Make A Change.</a></h2>
+            <p>Looking for a great intern you can check my skills and my projects and based upon them can contact me to hire or work together  <a href="https://www.linkedin.com/in/joe-kicker-058a3a172/"><span>Linkedin</span></a>.
+		
+
+         </div>
+
+         <div class="three columns action">
+
+            <a href="mailto:josephkdo@gmail.com" class="button">Hire Me</a>
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://github.com/Joseph-Odhiambo" target="_blank"><i class="fa fa-github" ></i></a></li>
+
+
+               <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+               
+               <li><a href="https://twitter.com/JosephKdon"><i class="fa fa-twitter"></i></a></li>
+               
+               <li><a href="https://www.linkedin.com/in/joe-kicker-058a3a172/"><i class="fa fa-linkedin"></i></a></li>
+               
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               
+            </ul>
+           <h6> &nbsp; &nbsp; Github &nbsp; &nbsp; &nbsp; Youtube &nbsp;&nbsp; &nbsp;&nbsp;Twitter &nbsp;&nbsp; &nbsp; &nbsp; Linkedin &nbsp; &nbsp; &nbsp;Instagram </h6> 
+             <br> Thank You;
+            <ul class="copyright">
+               <li>&copy; Copyright 2020 Joe-Kicker</li>
+                 
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+  
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
