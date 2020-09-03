@@ -103,6 +103,7 @@ header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
 header .scrolldown a {
+   margin-bottom: 3%;
    position: absolute;
    bottom: 30px;
    left: 50%;
